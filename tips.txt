@@ -1,0 +1,35 @@
+: = prefix for entering command-line mode
+q = shortcut for quit command
+a = all buffers
+! = force
+
+to quit all:
+:qa!
+
+Vim provides two modes: insert mode and normal mode
+insert mode for writing text
+normal mode for manipulating text
+
+in normal mode, each key has a meaning related to text manipulation
+
+to enter insert mode - press i
+to go back to the normal mode - press esc key or ctrl + c
+
+insert mode is for insert
+everything else is done in the normal mode
+
+editting is done in the normal mode as well
+
+if the file doesn't exist, type below vim will create for you
+:w
+
+if you wish to write to a different file:
+:w learn-rf.txt
+
+switch to editing another file:
+:e learn-rf.txt
+
+if you are not sure which file you are editing, you can use cntrl + g 
+
+to write and quit at the same time:
+:wq
