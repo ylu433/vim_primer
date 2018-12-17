@@ -33,3 +33,56 @@ if you are not sure which file you are editing, you can use cntrl + g
 
 to write and quit at the same time:
 :wq
+
+can use H, J, K, L key to navigate around
+if you type 10L it will move 10 characters after
+
+press W to get to the beginning of the next word
+press E to get to the end of the next word
+
+4W move to 4 words later
+
+use ( to go to the previous sentence
+use ) to go to the next sentence
+
+user { or } to move around paragraphs
+
+double [ to the beginning of the text file
+double ] to the end of the text file
+
+to display vim number:
+http://vim.wikia.com/wiki/Display_line_numbers
+
+
+find specific text. for example, "tra", type:
+/tra
+
+you can use regular expression. for example, "." means any character
+/ch.mber 
+use ? to search from the back. for example, ?ch.mber
+
+then you can press n for next and press N for the previous
+
+shift+g to the end of the file
+
+gg to go to the beginning of the file
+
+control + F to scroll Forward page by page
+
+control + B to scroll Back page by page
+
+:3 to move to line number 3
+
+use $ to move to the end of the line. use 0 to move to the beginning of the line
+
+:3J6W means move 3 lines down 6 words right
+
+when you hover over a text, type * to get to the next same word, or you can type # to get to the previous word
+
+dw delete word
+d) delete sentence
+u undo
+dd delete line
+d/Genious delete upuntil Geniouis
+
+
